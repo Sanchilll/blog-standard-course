@@ -33,7 +33,7 @@ export default withApiAuthRequired(async function handler(req, res) {
   }
 
   const response = await openai.createCompletion({
-    model: "text-davinci-003",
+    model: "gpt-4",
     temperature: 0,
     max_tokens: 3600,
     prompt: `Write a long and detailed SEO-friendly blog post about ${topic} that targets the following comma-separated keywords:${keywords}.
