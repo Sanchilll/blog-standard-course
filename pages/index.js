@@ -12,8 +12,8 @@ export default function Home() {
         <Logo />
         <p>
           Revolutionize your content creation with our AI-powered blog
-          generator. Say goodbye to writer's block and hello to high-quality
-          posts.
+          generator. Say goodbye to writer&apos;s block and hello to
+          high-quality posts.
         </p>
         <Link href="/post/new" className="btn my-5">
           Begin
